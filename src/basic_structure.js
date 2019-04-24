@@ -38,7 +38,7 @@ markersLayer.on('click', onMapClick);
 
 map.addControl(new L.Control.Search({
 
-    url: 'https://nominatim.openstreetmap.org/search?format=json&q={s} городской округ Калининград',
+    url: 'https://nominatim.openstreetmap.org/search?format=json&q={s} городской округ Советск',
     jsonpParam: 'json_callback',
     propertyName: 'display_name',
     textPlaceholder: 'Поиск по адресу',
@@ -54,7 +54,7 @@ var logo = L.control({ position: "topleft" });
 
 logo.onAdd = function (map) {
     this.logodiv = L.DomUtil.create('div', 'logo');
-    this.logodiv.innerHTML = '<a href="mailto:pronin.s@i-labs.ru?subject=Чистая Страна - Калининград&body=Вы можете внести свой вклад в чистоту города, отправляйте фотографии мусорных контейнеров и свалок (укажите адрес и дату). Вместе мы сделаем город чище!По вопросам тел. 89673549307 Сергей Николаевич"><img src="images/logo_m.png" title="Сообщить о проблемной зоне"> </a>'
+    this.logodiv.innerHTML = '<a href="mailto:it.gluck@ya.ru?subject=Чистая Страна - Советск&body=Вы можете внести свой вклад в чистоту города, отправляйте фотографии мусорных контейнеров и свалок (укажите адрес и дату). Вместе мы сделаем город чище!"><img src="images/logo_m.png" title="Сообщить о проблемной зоне"> </a>'
     //  
 
     return this.logodiv;
