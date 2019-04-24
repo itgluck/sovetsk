@@ -38,7 +38,7 @@ markersLayer.on('click', onMapClick);
 
 map.addControl(new L.Control.Search({
 
-    url: 'https://nominatim.openstreetmap.org/search?format=json&q={s} городской округ Советск',
+    url: 'https://nominatim.openstreetmap.org/search?format=json&q={s}  городской округ Советск, Калининградская область,',
     jsonpParam: 'json_callback',
     propertyName: 'display_name',
     textPlaceholder: 'Поиск по адресу',
