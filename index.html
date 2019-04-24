@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Чистая Страна - Советск</title>
+	<meta http-equiv=«Content-Type» content=«text/html; charset=utf-8»>
+	<link rel="shortcut icon" type="image/png" href="images/er.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+		integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+		crossorigin="" />
+	<link rel="stylesheet" href="src/leaflet-search.css" />
+	<link rel="stylesheet" href="src/main.css" />
+
+
+
+	<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+		integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+		crossorigin=""></script>
+		<script src="src/leaflet-search.js"></script>
+		
+		<!-- app -->
+		<link rel="manifest" href="manifest.json">
+		<meta name="theme-color" content="#1976d2">
+		<meta name="application-name" content="Чистая Страна">
+		<meta name="mobile-web-app-capable" content="yes">		
+		<script src="https://api-maps.yandex.ru/2.1/?apikey=f146e94c-9f2b-4392-95ef-20b3ec5fbf88&lang=ru_RU" type="text/javascript"></script>
+		<script src="src/yandex.js"></script>
+
+
+		<!-- Exp -->
+	</head>
+	
+	<body>
+		
+		<div id="map" onclick="myFunction()"></div>
+		<script>
+			function myFunction() {
+			  setTimeout(function(){ alert("Проект Чистая Страна  - Советск. Demo версия кары."); }, 5000);
+			}
+			</script>
+	<script src='src/Leaflet.LocationShare.js'></script>
+	<script type="text/javascript" src="src/points.js"></script>
+	<script type="text/javascript" src="src/basic_structure.js"></script>
+
+
+
+	
+</body>
+
+</html>
